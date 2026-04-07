@@ -258,5 +258,6 @@ def handle_llm_message(message):
 # =======================
 # ▶️ START
 # =======================
-print("Bot is running...")
-bot.polling()
+if __name__ == "__main__":
+    print("Bot is running...")
+    bot.polling()
